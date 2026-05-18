@@ -126,3 +126,12 @@ header img {
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
+
+.project_links a{
+  text-decoration: none;
+  color: white;
+}
+.project_links{
+  display: flex;
+  gap: 1rem;
+}
