@@ -1,0 +1,128 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  box-sizing: border-box;
+  background-color: #111;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  gap: 3rem;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  header {
+    min-width: 100%;
+  }
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.grey {
+  color: rgba(190, 190, 190, 0.796);
+}
+.light-grey {
+  color: rgb(192, 191, 191);
+}
+header {
+  min-width: 40%;
+}
+header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.div_border {
+  border-left: 1px solid white;
+  padding-left: 1rem;
+}
+
+#resume {
+  width: 6rem;
+  height: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
+#resume:hover,
+#resume:active {
+  background-color: white;
+  color: black;
+}
+#instagram,
+#mail,
+#X {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+#instagram:hover,
+#mail:hover,
+#X:hover {
+  color: black;
+  background-color: white;
+}
+#whatsapp {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+#whatsapp:hover {
+  background-color: white;
+  color: black;
+}
+.lang_span,
+.office {
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 1px solid #5f27cd;
+  background: #5f27cd;
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin-bottom: 10px;
+}
+.office {
+  background-color: #10ac84;
+  border: 1px solid #10ac84;
+}
+#mobile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
